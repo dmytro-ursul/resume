@@ -1,0 +1,96 @@
+{
+  "experiences": [
+    {
+      "period": "May 2023 - Jul 2025",
+      "title": "Full-Stack Ruby Developer",
+      "company": "Inventorsoft / Zero (outstaff)",
+      "description": "Specialized platform for the Italian market, empowering retailers in the mobile telecom sector to efficiently manage and sell products and services such as SIM cards, mobile phones, and related telecommunications offerings. The platform streamlines the sales process, inventory management, and customer activation workflows, supporting both physical stores and digital operations.",
+      "stack": "Rails 7, Turbo, Stimulus, HTML, Sass, JS, MySQL, Solr, Delayed Job, Docker",
+      "responsibilities": [
+        "Developed features for SIM activation, product catalog management, and order processing",
+        "Integrated third-party APIs for mobile carriers, digital signatures, and logistics",
+        "Optimized database queries and background job processing",
+        "Maintained and modernized legacy codebase"
+      ]
+    },
+    {
+      "period": "Jun 2021 - Mar 2023",
+      "title": "Full-Stack Ruby Developer",
+      "company": "Softserve / Lano (outstaff)",
+      "description": "SaaS platform enabling companies to build/manage global remote teams, streamline cross-border payroll, and automate compliance, while providing freelancers with tools for invoicing, client management, and payments.",
+      "stack": "Rails 7, Turbo, Stimulus, HAML, Sass, Handlebars, PostgreSQL, ElasticSearch",
+      "responsibilities": [
+        "Built and maintained APIs for mobile applications and client integrations",
+        "Worked on invoice processing and client wallet functionality",
+        "Improved frontend components and responsiveness",
+        "Created technical documentation and participated in code reviews"
+      ]
+    },
+    {
+      "period": "Apr 2020 - Jun 2021",
+      "title": "Full-Stack Ruby Developer",
+      "company": "Softserve / Teladoc",
+      "description": "Leading telemedicine platform connecting patients with healthcare providers via web/mobile apps, serving millions of users with HIPAA-compliant virtual care, insurance integrations, and prescription management.",
+      "stack": "Rails 5, GraphQL, HAML, Sass, React, MySQL, ElasticSearch, Redis, Docker",
+      "responsibilities": [
+        "Worked on authentication system supporting multiple insurance providers",
+        "Implemented patient registration flows",
+        "Upgraded and refactored legacy application components",
+        "Developed test coverage for critical features",
+        "Participated in team mentoring and knowledge sharing"
+      ]
+    },
+    {
+      "period": "Jun 2017 - Mar 2020",
+      "title": "Full-Stack Ruby Developer",
+      "company": "Softserve / Onelogin",
+      "description": "Enterprise identity management solution providing secure, seamless access to business applications across all devices.",
+      "stack": "Rails 2.3, Rails 5, React, Puppeteer, PostgreSQL, RabbitMQ, Redis, Docker, AWS",
+      "responsibilities": [
+        "Implemented user provisioning and synchronization across cloud directories",
+        "Built service for processing and logging security events",
+        "Refactored frontend components to improve maintainability",
+        "Implemented continuous integration and deployment pipelines",
+        "Participated in mentoring junior team members"
+      ]
+    },
+    {
+      "period": "Dec 2016 - Feb 2017",
+      "title": "Full-Stack Ruby Developer",
+      "company": "Softserve / Internal project",
+      "description": "Specialized platform helping Ukrainian families explore and connect with private schools and innovative educational alternatives beyond traditional public education.",
+      "stack": "Rails 5, HAML, Sass, PostgreSQL",
+      "responsibilities": [
+        "Started building the platform from scratch",
+        "Contributed to database design and optimization for school information management",
+        "Collaborated with development team on technical architecture and feature implementation",
+        "Performed testing and debugging to ensure platform reliability and performance"
+      ]
+    },
+    {
+      "period": "Jul 2015 - Dec 2016",
+      "title": "Full-Stack Ruby Developer",
+      "company": "Softserve / Onelogin",
+      "description": "Enterprise identity management solution providing secure, seamless access to business applications across all devices.",
+      "stack": "Rails 2.3, Rails 5, React, Puppeteer, PostgreSQL, RabbitMQ, Redis, Docker, AWS",
+      "responsibilities": [
+        "Developed browser extensions for enterprise single sign-on functionality",
+        "Created automated testing solutions for authentication workflows",
+        "Fixed bugs across the stack"
+      ]
+    },
+    {
+      "period": "Mar 2014 - Jun 2015",
+      "title": "Full-Stack Ruby Developer",
+      "company": "R&R Music Ltd.",
+      "description": "Next-generation music service delivering intelligent recommendations based on user preferences and listening behavior.",
+      "stack": "JRuby, Rails 3.2, Slim, Sass, CoffeeScript, MongoDB",
+      "responsibilities": [
+        "Assisted in developing new user profile",
+        "Participated in code reviews and learned Rails best practices",
+        "Supported the team in maintaining the admin dashboard",
+        "Fixed bugs across the stack under senior developer guidance"
+      ]
+    }
+  ]
+}
