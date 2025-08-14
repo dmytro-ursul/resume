@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: white;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    min-height: 100vh;
+}
+
+.header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    text-align: center;
+    padding: 60px 40px;
+}
+
+.header h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+.contact-info {
+    font-size: 1.1em;
+}
+
+.contact-info a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: opacity 0.3s;
+}
+
+.contact-info a:hover {
+    opacity: 0.8;
+}
+
+.content {
+    padding: 40px;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+.section-title {
+    font-size: 1.5em;
+    color: #667eea;
+    margin-bottom: 15px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #667eea;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.about-text {
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.8;
+}
+
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.tech-item {
+    background: #667eea;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
+.experience-item {
+    margin-bottom: 30px;
+    padding: 25px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    border-left: 4px solid #667eea;
+}
+
+.job-header {
+    margin-bottom: 15px;
+}
+
+.job-title {
+    font-size: 1.3em;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.job-period {
+    color: #667eea;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.company {
+    color: #666;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.job-description {
+    color: #555;
+    margin-bottom: 15px;
+    line-height: 1.7;
+}
+
+.stack-info {
+    background: #e9ecef;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 0.95em;
+}
+
+.responsibilities {
+    margin-top: 10px;
+}
+
+.responsibilities ul {
+    margin-left: 20px;
+}
+
+.responsibilities li {
+    margin-bottom: 8px;
+    color: #555;
+}
+
+.education-item, .course-item {
+    margin-bottom: 20px;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+.education-period, .course-period {
+    color: #667eea;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.institution {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.degree {
+    color: #666;
+}
+
+.languages {
+    font-size: 1.1em;
+}
+
+.language-item {
+    background: #f8f9fa;
+    padding: 15px 20px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* PDF Download Button */
+.pdf-download-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 12px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+    transition: all 0.3s ease;
+    z-index: 1000;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.pdf-download-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+    color: white;
+    text-decoration: none;
+}
+
+.pdf-download-btn:active {
+    transform: translateY(0);
+}
+
+.pdf-download-btn .icon {
+    font-size: 16px;
+}
+
+/* Print styles - hide PDF button when printing/generating PDF */
+@media print {
+    .pdf-download-btn {
+        display: none !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin: 0;
+        box-shadow: none;
+    }
+
+    .header {
+        padding: 40px 20px;
+    }
+
+    .header h1 {
+        font-size: 2.2em;
+    }
+
+    .content {
+        padding: 30px 20px;
+    }
+
+    .contact-info a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .pdf-download-btn {
+        top: 10px;
+        right: 10px;
+        padding: 10px 16px;
+        font-size: 12px;
+    }
+}
