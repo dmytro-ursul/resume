@@ -7,10 +7,10 @@
       "description": "Specialized platform for the Italian market, empowering retailers in the mobile telecom sector to efficiently manage and sell products and services such as SIM cards, mobile phones, and related telecommunications offerings. The platform streamlines the sales process, inventory management, and customer activation workflows, supporting both physical stores and digital operations.",
       "stack": "Rails 7, Turbo, Stimulus, HTML, Sass, JS, MySQL, Solr, Delayed Job, Docker",
       "responsibilities": [
+        "Migrated platform from Rails 5 to Rails 7",
         "Developed features for SIM activation, product catalog management, and order processing",
-        "Integrated third-party APIs for mobile carriers, digital signatures, and logistics",
-        "Optimized database queries and background job processing",
-        "Maintained and modernized legacy codebase"
+        "Maintained integrations with third-party APIs for mobile carriers, digital signatures, and logistics",
+        "Optimized database queries and background job processing"
       ]
     },
     {
@@ -20,10 +20,10 @@
       "description": "SaaS platform enabling companies to build/manage global remote teams, streamline cross-border payroll, and automate compliance, while providing freelancers with tools for invoicing, client management, and payments.",
       "stack": "Rails 7, Turbo, Stimulus, HAML, Sass, Handlebars, PostgreSQL, ElasticSearch",
       "responsibilities": [
-        "Built and maintained APIs for mobile applications and client integrations",
+        "Built and maintained API for mobile applications",
         "Worked on invoice processing and client wallet functionality",
         "Improved frontend components and responsiveness",
-        "Created technical documentation and participated in code reviews"
+        "Created technical documentation through specs"
       ]
     },
     {
@@ -34,7 +34,7 @@
       "stack": "Rails 5, GraphQL, HAML, Sass, React, MySQL, ElasticSearch, Redis, Docker",
       "responsibilities": [
         "Worked on authentication system supporting multiple insurance providers",
-        "Implemented patient registration flows",
+        "Implemented new patient registration flow",
         "Upgraded and refactored legacy application components",
         "Developed test coverage for critical features",
         "Participated in team mentoring and knowledge sharing"
@@ -74,8 +74,8 @@
       "description": "Enterprise identity management solution providing secure, seamless access to business applications across all devices.",
       "stack": "Rails 2.3, Rails 5, React, Puppeteer, PostgreSQL, RabbitMQ, Redis, Docker, AWS",
       "responsibilities": [
-        "Developed browser extensions for enterprise single sign-on functionality",
-        "Created automated testing solutions for authentication workflows",
+        "Maintained browser extensions for enterprise single sign-on functionality",
+        "Created test suite for authentication workflows",
         "Fixed bugs across the stack"
       ]
     },
